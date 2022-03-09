@@ -20,21 +20,21 @@ spawnCooldown=30
 
 
 #assets loading
-spaceBackground=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\spaceInvaders\\assets\\spaceBackground.jpg"))
+spaceBackground=pygame.image.load(os.path.join("assets\\spaceBackground.jpg"))
 spaceBackground=pygame.transform.scale(spaceBackground,(widht,height))
-spaceShip=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\spaceInvaders\\assets\\spaceShip.png"))
+spaceShip=pygame.image.load(os.path.join("assets\\spaceShip.png"))
 spaceShip=pygame.transform.scale(spaceShip,(100,100))
-invaderBlack=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\spaceInvaders\\assets\\invader.png"))
+invaderBlack=pygame.image.load(os.path.join("assets\\invader.png"))
 invaderBlack=pygame.transform.scale(invaderBlack,(80,80))
-invaderRed=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\spaceInvaders\\assets\\invaderRed.png"))
+invaderRed=pygame.image.load(os.path.join("assets\\invaderRed.png"))
 invaderRed=pygame.transform.scale(invaderRed,(50,50))
-invaderGreen=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\spaceInvaders\\assets\\invaderGreen.png"))
+invaderGreen=pygame.image.load(os.path.join("assets\\invaderGreen.png"))
 invaderGreen=pygame.transform.scale(invaderGreen,(50,50))
-invaderBlue=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\spaceInvaders\\assets\\invaderBlue.png"))
+invaderBlue=pygame.image.load(os.path.join("assets\\invaderBlue.png"))
 invaderBlue=pygame.transform.scale(invaderBlue,(100,50))
-invaderOrange=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\spaceInvaders\\assets\\invaderOrange.png"))
+invaderOrange=pygame.image.load(os.path.join("assets\\invaderOrange.png"))
 invaderOrange=pygame.transform.scale(invaderOrange,(50,50))
-bulletImage=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\spaceInvaders\\assets\\bullet.png"))
+bulletImage=pygame.image.load(os.path.join("assets\\bullet.png"))
 bulletImage=pygame.transform.scale(bulletImage,(25,25))
 
 
